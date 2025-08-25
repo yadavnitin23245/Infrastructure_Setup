@@ -5,474 +5,6 @@
   "nxJsonPlugins": [],
   "fileMap": {
     "projectFileMap": {
-      "api": [
-        {
-          "file": "apps/api/.env",
-          "hash": "9445563492405890271"
-        },
-        {
-          "file": "apps/api/.env.production.example",
-          "hash": "10359895793585188722"
-        },
-        {
-          "file": "apps/api/.env.staging.example",
-          "hash": "10359895793585188722"
-        },
-        {
-          "file": "apps/api/Dockerfile",
-          "hash": "10642337553475150254"
-        },
-        {
-          "file": "apps/api/dist/main.d.ts",
-          "hash": "10762920043107197735",
-          "deps": [
-            "npm:reflect-metadata@0.1.13"
-          ]
-        },
-        {
-          "file": "apps/api/dist/main.js",
-          "hash": "1126624113809070837",
-          "deps": [
-            "npm:reflect-metadata@0.1.13",
-            "npm:@nestjs/core",
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger",
-            "npm:nestjs-pino",
-            "npm:prom-client",
-            "npm:@sentry/node"
-          ]
-        },
-        {
-          "file": "apps/api/dist/main.js.map",
-          "hash": "6914253432486709372"
-        },
-        {
-          "file": "apps/api/dist/modules/app.module.d.ts",
-          "hash": "10127694934788833983"
-        },
-        {
-          "file": "apps/api/dist/modules/app.module.js",
-          "hash": "15586047664608085950",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/config",
-            "npm:nestjs-pino"
-          ]
-        },
-        {
-          "file": "apps/api/dist/modules/app.module.js.map",
-          "hash": "1505158546294963927"
-        },
-        {
-          "file": "apps/api/dist/modules/auth/auth.controller.d.ts",
-          "hash": "16014241020155924175"
-        },
-        {
-          "file": "apps/api/dist/modules/auth/auth.controller.js",
-          "hash": "2944234621347437572",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:class-validator",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/dist/modules/auth/auth.controller.js.map",
-          "hash": "13428302726108627575"
-        },
-        {
-          "file": "apps/api/dist/modules/auth/auth.module.d.ts",
-          "hash": "11647569113032610640"
-        },
-        {
-          "file": "apps/api/dist/modules/auth/auth.module.js",
-          "hash": "9483191374814556943",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/jwt"
-          ]
-        },
-        {
-          "file": "apps/api/dist/modules/auth/auth.module.js.map",
-          "hash": "13789683442263894340"
-        },
-        {
-          "file": "apps/api/dist/modules/auth/auth.service.d.ts",
-          "hash": "4796196732788065994",
-          "deps": [
-            "npm:@nestjs/jwt",
-            "npm:@prisma/client@5.22.0"
-          ]
-        },
-        {
-          "file": "apps/api/dist/modules/auth/auth.service.js",
-          "hash": "3072965629800932813",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/jwt",
-            "npm:bcrypt",
-            "npm:@prisma/client@5.22.0"
-          ]
-        },
-        {
-          "file": "apps/api/dist/modules/auth/auth.service.js.map",
-          "hash": "16739391316862507720"
-        },
-        {
-          "file": "apps/api/dist/modules/auth/jwt.guard.d.ts",
-          "hash": "6006668970416236471",
-          "deps": [
-            "npm:@nestjs/passport"
-          ]
-        },
-        {
-          "file": "apps/api/dist/modules/auth/jwt.guard.js",
-          "hash": "8620465989155392262",
-          "deps": [
-            "npm:@nestjs/passport"
-          ]
-        },
-        {
-          "file": "apps/api/dist/modules/auth/jwt.guard.js.map",
-          "hash": "15942747870489500036"
-        },
-        {
-          "file": "apps/api/dist/modules/auth/jwt.strategy.d.ts",
-          "hash": "15520458098563463011",
-          "deps": [
-            "npm:passport-jwt"
-          ]
-        },
-        {
-          "file": "apps/api/dist/modules/auth/jwt.strategy.js",
-          "hash": "9029345294518741106",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/passport",
-            "npm:passport-jwt"
-          ]
-        },
-        {
-          "file": "apps/api/dist/modules/auth/jwt.strategy.js.map",
-          "hash": "16320817594296742774"
-        },
-        {
-          "file": "apps/api/dist/modules/health.controller.d.ts",
-          "hash": "819353400614953913"
-        },
-        {
-          "file": "apps/api/dist/modules/health.controller.js",
-          "hash": "9088503814798041908",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/dist/modules/health.controller.js.map",
-          "hash": "11556687332955926860"
-        },
-        {
-          "file": "apps/api/dist/modules/metrics/metrics.controller.d.ts",
-          "hash": "11159911401983388806"
-        },
-        {
-          "file": "apps/api/dist/modules/metrics/metrics.controller.js",
-          "hash": "14705853108013170955",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:prom-client"
-          ]
-        },
-        {
-          "file": "apps/api/dist/modules/metrics/metrics.controller.js.map",
-          "hash": "968694144648495084"
-        },
-        {
-          "file": "apps/api/dist/modules/metrics/metrics.module.d.ts",
-          "hash": "4198157972602811286"
-        },
-        {
-          "file": "apps/api/dist/modules/metrics/metrics.module.js",
-          "hash": "14392974627474644047",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/dist/modules/metrics/metrics.module.js.map",
-          "hash": "15222255525829117948"
-        },
-        {
-          "file": "apps/api/dist/modules/prisma.module.d.ts",
-          "hash": "11576682696504724201"
-        },
-        {
-          "file": "apps/api/dist/modules/prisma.module.js",
-          "hash": "8280700529505804094",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@prisma/client@5.22.0"
-          ]
-        },
-        {
-          "file": "apps/api/dist/modules/prisma.module.js.map",
-          "hash": "11661228692468362726"
-        },
-        {
-          "file": "apps/api/dist/modules/storage/storage.controller.d.ts",
-          "hash": "7378988105011119071"
-        },
-        {
-          "file": "apps/api/dist/modules/storage/storage.controller.js",
-          "hash": "1634499613817617000",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/dist/modules/storage/storage.controller.js.map",
-          "hash": "1189715588024005946"
-        },
-        {
-          "file": "apps/api/dist/modules/storage/storage.module.d.ts",
-          "hash": "17013139365685634932"
-        },
-        {
-          "file": "apps/api/dist/modules/storage/storage.module.js",
-          "hash": "10902510277431540454",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/dist/modules/storage/storage.module.js.map",
-          "hash": "13165407856397418981"
-        },
-        {
-          "file": "apps/api/dist/modules/storage/storage.service.d.ts",
-          "hash": "9182225588324440480"
-        },
-        {
-          "file": "apps/api/dist/modules/storage/storage.service.js",
-          "hash": "15631219470057599237",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@aws-sdk/client-s3",
-            "npm:@aws-sdk/s3-request-presigner"
-          ]
-        },
-        {
-          "file": "apps/api/dist/modules/storage/storage.service.js.map",
-          "hash": "5271686626356138020"
-        },
-        {
-          "file": "apps/api/jest.config.js",
-          "hash": "11378839344630797096"
-        },
-        {
-          "file": "apps/api/package.json",
-          "hash": "14103353020576261032",
-          "deps": [
-            "npm:@nestjs/testing",
-            "npm:@types/jest",
-            "npm:@types/node",
-            "npm:@types/passport-jwt",
-            "npm:@types/supertest",
-            "npm:jest",
-            "npm:prisma@5.22.0",
-            "npm:supertest",
-            "npm:ts-jest",
-            "npm:ts-node",
-            "npm:tsconfig-paths",
-            "npm:tsx",
-            "npm:typescript",
-            "npm:@aws-sdk/client-s3",
-            "npm:@aws-sdk/s3-request-presigner",
-            "npm:@nestjs/common",
-            "npm:@nestjs/config",
-            "npm:@nestjs/core",
-            "npm:@nestjs/jwt",
-            "npm:@nestjs/passport",
-            "npm:@nestjs/platform-express",
-            "npm:@nestjs/swagger",
-            "npm:@prisma/client@5.22.0",
-            "npm:@sentry/node",
-            "npm:bcrypt",
-            "npm:class-transformer",
-            "npm:class-validator",
-            "npm:dotenv",
-            "npm:nestjs-pino",
-            "npm:passport",
-            "npm:passport-jwt",
-            "npm:pino-http",
-            "npm:pino-pretty",
-            "npm:prom-client",
-            "npm:reflect-metadata@0.1.13",
-            "npm:rxjs",
-            "npm:swagger-ui-express"
-          ]
-        },
-        {
-          "file": "apps/api/prisma/migrations/20250818141012_firstmigration/migration.sql",
-          "hash": "13249905020314682674"
-        },
-        {
-          "file": "apps/api/prisma/migrations/migration_lock.toml",
-          "hash": "11493296588214560035"
-        },
-        {
-          "file": "apps/api/prisma/schema.prisma",
-          "hash": "8886689439346891346"
-        },
-        {
-          "file": "apps/api/src/main.ts",
-          "hash": "17439374037702852561",
-          "deps": [
-            "npm:reflect-metadata@0.1.13",
-            "npm:@nestjs/core",
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger",
-            "npm:nestjs-pino",
-            "npm:prom-client",
-            "npm:@sentry/node"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/app.module.ts",
-          "hash": "15057260846620814819",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/config",
-            "npm:nestjs-pino"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/auth.controller.ts",
-          "hash": "6287773050949036509",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:class-validator",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/auth.module.ts",
-          "hash": "12572854621924454279",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/jwt"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/auth.service.ts",
-          "hash": "17809213287372140604",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/jwt",
-            "npm:bcrypt",
-            "npm:@prisma/client@5.22.0"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/jwt.guard.ts",
-          "hash": "12405900874836400339",
-          "deps": [
-            "npm:@nestjs/passport"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/jwt.strategy.ts",
-          "hash": "8723224849927209337",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/passport",
-            "npm:passport-jwt"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/health.controller.ts",
-          "hash": "2668652883571105340",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/metrics/metrics.controller.ts",
-          "hash": "8911337437073842517",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:prom-client"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/metrics/metrics.module.ts",
-          "hash": "12635945142524745991",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/jwt"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/prisma.module.ts",
-          "hash": "738648121678277009",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@prisma/client@5.22.0"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/storage/storage.controller.ts",
-          "hash": "17482292620188363135",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/storage/storage.module.ts",
-          "hash": "5283436456681924872",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/storage/storage.service.ts",
-          "hash": "6466243892690631048",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@aws-sdk/client-s3",
-            "npm:@aws-sdk/s3-request-presigner"
-          ]
-        },
-        {
-          "file": "apps/api/test/auth.service.spec.ts",
-          "hash": "10906666087822063689",
-          "deps": [
-            "npm:reflect-metadata@0.1.13",
-            "npm:@nestjs/testing",
-            "npm:@nestjs/jwt"
-          ]
-        },
-        {
-          "file": "apps/api/test/health.e2e.spec.ts",
-          "hash": "7669725969897785636",
-          "deps": [
-            "npm:reflect-metadata@0.1.13",
-            "npm:@nestjs/testing",
-            "npm:@nestjs/common",
-            "npm:supertest"
-          ]
-        },
-        {
-          "file": "apps/api/tsconfig.build.json",
-          "hash": "4144360259620595297"
-        },
-        {
-          "file": "apps/api/tsconfig.json",
-          "hash": "17485524502040787513"
-        }
-      ],
       "web": [
         {
           "file": "apps/web/.env",
@@ -951,6 +483,474 @@
         {
           "file": "apps/web/tsconfig.json",
           "hash": "16492222922998203247"
+        }
+      ],
+      "api": [
+        {
+          "file": "apps/api/.env",
+          "hash": "9445563492405890271"
+        },
+        {
+          "file": "apps/api/.env.production.example",
+          "hash": "10359895793585188722"
+        },
+        {
+          "file": "apps/api/.env.staging.example",
+          "hash": "10359895793585188722"
+        },
+        {
+          "file": "apps/api/Dockerfile",
+          "hash": "10642337553475150254"
+        },
+        {
+          "file": "apps/api/dist/main.d.ts",
+          "hash": "10762920043107197735",
+          "deps": [
+            "npm:reflect-metadata@0.1.13"
+          ]
+        },
+        {
+          "file": "apps/api/dist/main.js",
+          "hash": "1126624113809070837",
+          "deps": [
+            "npm:reflect-metadata@0.1.13",
+            "npm:@nestjs/core",
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger",
+            "npm:nestjs-pino",
+            "npm:prom-client",
+            "npm:@sentry/node"
+          ]
+        },
+        {
+          "file": "apps/api/dist/main.js.map",
+          "hash": "6914253432486709372"
+        },
+        {
+          "file": "apps/api/dist/modules/app.module.d.ts",
+          "hash": "10127694934788833983"
+        },
+        {
+          "file": "apps/api/dist/modules/app.module.js",
+          "hash": "15586047664608085950",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:nestjs-pino"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/app.module.js.map",
+          "hash": "1505158546294963927"
+        },
+        {
+          "file": "apps/api/dist/modules/auth/auth.controller.d.ts",
+          "hash": "16014241020155924175"
+        },
+        {
+          "file": "apps/api/dist/modules/auth/auth.controller.js",
+          "hash": "2944234621347437572",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:class-validator",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/auth/auth.controller.js.map",
+          "hash": "13428302726108627575"
+        },
+        {
+          "file": "apps/api/dist/modules/auth/auth.module.d.ts",
+          "hash": "11647569113032610640"
+        },
+        {
+          "file": "apps/api/dist/modules/auth/auth.module.js",
+          "hash": "9483191374814556943",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/auth/auth.module.js.map",
+          "hash": "13789683442263894340"
+        },
+        {
+          "file": "apps/api/dist/modules/auth/auth.service.d.ts",
+          "hash": "4796196732788065994",
+          "deps": [
+            "npm:@nestjs/jwt",
+            "npm:@prisma/client@5.22.0"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/auth/auth.service.js",
+          "hash": "3072965629800932813",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt",
+            "npm:bcrypt",
+            "npm:@prisma/client@5.22.0"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/auth/auth.service.js.map",
+          "hash": "16739391316862507720"
+        },
+        {
+          "file": "apps/api/dist/modules/auth/jwt.guard.d.ts",
+          "hash": "6006668970416236471",
+          "deps": [
+            "npm:@nestjs/passport"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/auth/jwt.guard.js",
+          "hash": "8620465989155392262",
+          "deps": [
+            "npm:@nestjs/passport"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/auth/jwt.guard.js.map",
+          "hash": "15942747870489500036"
+        },
+        {
+          "file": "apps/api/dist/modules/auth/jwt.strategy.d.ts",
+          "hash": "15520458098563463011",
+          "deps": [
+            "npm:passport-jwt"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/auth/jwt.strategy.js",
+          "hash": "9029345294518741106",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/passport",
+            "npm:passport-jwt"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/auth/jwt.strategy.js.map",
+          "hash": "16320817594296742774"
+        },
+        {
+          "file": "apps/api/dist/modules/health.controller.d.ts",
+          "hash": "819353400614953913"
+        },
+        {
+          "file": "apps/api/dist/modules/health.controller.js",
+          "hash": "9088503814798041908",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/health.controller.js.map",
+          "hash": "11556687332955926860"
+        },
+        {
+          "file": "apps/api/dist/modules/metrics/metrics.controller.d.ts",
+          "hash": "11159911401983388806"
+        },
+        {
+          "file": "apps/api/dist/modules/metrics/metrics.controller.js",
+          "hash": "14705853108013170955",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:prom-client"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/metrics/metrics.controller.js.map",
+          "hash": "968694144648495084"
+        },
+        {
+          "file": "apps/api/dist/modules/metrics/metrics.module.d.ts",
+          "hash": "4198157972602811286"
+        },
+        {
+          "file": "apps/api/dist/modules/metrics/metrics.module.js",
+          "hash": "14392974627474644047",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/metrics/metrics.module.js.map",
+          "hash": "15222255525829117948"
+        },
+        {
+          "file": "apps/api/dist/modules/prisma.module.d.ts",
+          "hash": "11576682696504724201"
+        },
+        {
+          "file": "apps/api/dist/modules/prisma.module.js",
+          "hash": "8280700529505804094",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@prisma/client@5.22.0"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/prisma.module.js.map",
+          "hash": "11661228692468362726"
+        },
+        {
+          "file": "apps/api/dist/modules/storage/storage.controller.d.ts",
+          "hash": "7378988105011119071"
+        },
+        {
+          "file": "apps/api/dist/modules/storage/storage.controller.js",
+          "hash": "1634499613817617000",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/storage/storage.controller.js.map",
+          "hash": "1189715588024005946"
+        },
+        {
+          "file": "apps/api/dist/modules/storage/storage.module.d.ts",
+          "hash": "17013139365685634932"
+        },
+        {
+          "file": "apps/api/dist/modules/storage/storage.module.js",
+          "hash": "10902510277431540454",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/storage/storage.module.js.map",
+          "hash": "13165407856397418981"
+        },
+        {
+          "file": "apps/api/dist/modules/storage/storage.service.d.ts",
+          "hash": "9182225588324440480"
+        },
+        {
+          "file": "apps/api/dist/modules/storage/storage.service.js",
+          "hash": "15631219470057599237",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@aws-sdk/client-s3",
+            "npm:@aws-sdk/s3-request-presigner"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/storage/storage.service.js.map",
+          "hash": "5271686626356138020"
+        },
+        {
+          "file": "apps/api/jest.config.js",
+          "hash": "11378839344630797096"
+        },
+        {
+          "file": "apps/api/package.json",
+          "hash": "14103353020576261032",
+          "deps": [
+            "npm:@nestjs/testing",
+            "npm:@types/jest",
+            "npm:@types/node",
+            "npm:@types/passport-jwt",
+            "npm:@types/supertest",
+            "npm:jest",
+            "npm:prisma@5.22.0",
+            "npm:supertest",
+            "npm:ts-jest",
+            "npm:ts-node",
+            "npm:tsconfig-paths",
+            "npm:tsx",
+            "npm:typescript",
+            "npm:@aws-sdk/client-s3",
+            "npm:@aws-sdk/s3-request-presigner",
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:@nestjs/core",
+            "npm:@nestjs/jwt",
+            "npm:@nestjs/passport",
+            "npm:@nestjs/platform-express",
+            "npm:@nestjs/swagger",
+            "npm:@prisma/client@5.22.0",
+            "npm:@sentry/node",
+            "npm:bcrypt",
+            "npm:class-transformer",
+            "npm:class-validator",
+            "npm:dotenv",
+            "npm:nestjs-pino",
+            "npm:passport",
+            "npm:passport-jwt",
+            "npm:pino-http",
+            "npm:pino-pretty",
+            "npm:prom-client",
+            "npm:reflect-metadata@0.1.13",
+            "npm:rxjs",
+            "npm:swagger-ui-express"
+          ]
+        },
+        {
+          "file": "apps/api/prisma/migrations/20250818141012_firstmigration/migration.sql",
+          "hash": "13249905020314682674"
+        },
+        {
+          "file": "apps/api/prisma/migrations/migration_lock.toml",
+          "hash": "11493296588214560035"
+        },
+        {
+          "file": "apps/api/prisma/schema.prisma",
+          "hash": "8886689439346891346"
+        },
+        {
+          "file": "apps/api/src/main.ts",
+          "hash": "17439374037702852561",
+          "deps": [
+            "npm:reflect-metadata@0.1.13",
+            "npm:@nestjs/core",
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger",
+            "npm:nestjs-pino",
+            "npm:prom-client",
+            "npm:@sentry/node"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/app.module.ts",
+          "hash": "15057260846620814819",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:nestjs-pino"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.controller.ts",
+          "hash": "6287773050949036509",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:class-validator",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.module.ts",
+          "hash": "12572854621924454279",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.service.ts",
+          "hash": "17809213287372140604",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt",
+            "npm:bcrypt",
+            "npm:@prisma/client@5.22.0"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/jwt.guard.ts",
+          "hash": "12405900874836400339",
+          "deps": [
+            "npm:@nestjs/passport"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/jwt.strategy.ts",
+          "hash": "8723224849927209337",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/passport",
+            "npm:passport-jwt"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/health.controller.ts",
+          "hash": "2668652883571105340",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/metrics/metrics.controller.ts",
+          "hash": "8911337437073842517",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:prom-client"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/metrics/metrics.module.ts",
+          "hash": "12635945142524745991",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/prisma.module.ts",
+          "hash": "738648121678277009",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@prisma/client@5.22.0"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/storage/storage.controller.ts",
+          "hash": "17482292620188363135",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/storage/storage.module.ts",
+          "hash": "5283436456681924872",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/storage/storage.service.ts",
+          "hash": "6466243892690631048",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@aws-sdk/client-s3",
+            "npm:@aws-sdk/s3-request-presigner"
+          ]
+        },
+        {
+          "file": "apps/api/test/auth.service.spec.ts",
+          "hash": "10906666087822063689",
+          "deps": [
+            "npm:reflect-metadata@0.1.13",
+            "npm:@nestjs/testing",
+            "npm:@nestjs/jwt"
+          ]
+        },
+        {
+          "file": "apps/api/test/health.e2e.spec.ts",
+          "hash": "7669725969897785636",
+          "deps": [
+            "npm:reflect-metadata@0.1.13",
+            "npm:@nestjs/testing",
+            "npm:@nestjs/common",
+            "npm:supertest"
+          ]
+        },
+        {
+          "file": "apps/api/tsconfig.build.json",
+          "hash": "4144360259620595297"
+        },
+        {
+          "file": "apps/api/tsconfig.json",
+          "hash": "17485524502040787513"
         }
       ]
     },

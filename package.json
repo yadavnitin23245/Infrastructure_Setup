@@ -6,12 +6,12 @@
     "apps/web"
   ],
   "scripts": {
-    "dev:api": "npm -w apps/api run dev",
-    "dev:web": "npm -w apps/web run dev",
+    "dev:api": "node api.js && npm -w apps/api run dev",
+    "dev:web": "node api.js && npm -w apps/web run dev",
     "build:api": "npm -w apps/api run build",
     "build:web": "npm -w apps/web run build",
-    "start:api": "npm -w apps/api run start",
-    "start:web": "npm -w apps/web run start",
+    "start:api": "node api.js && npm -w apps/api run start",
+    "start:web": "node api.js && npm -w apps/web run start",
     "prisma:gen": "npm -w apps/api run prisma:gen",
     "prisma:migrate": "npm -w apps/api run prisma:migrate",
     "nx": "nx",
