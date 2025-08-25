@@ -1,4 +1,4 @@
-// File: F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\apps\web\app\page.tsx
+// File: F:\Projects\Shekhar sir Project\Infrastructure_Setup\apps\web\app\page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

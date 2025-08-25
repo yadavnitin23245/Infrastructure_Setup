@@ -4023,6 +4023,15 @@
         "hash": "sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ=="
       }
     },
+    "npm:@types/react": {
+      "type": "npm",
+      "name": "npm:@types/react",
+      "data": {
+        "version": "19.1.11",
+        "packageName": "@types/react",
+        "hash": "sha512-lr3jdBw/BGj49Eps7EvqlUaoeA0xpj3pc0RoJkHpYaCHkVK7i28dKyImLQb3JVlqs3aYSXf7qYuWOW/fgZnTXQ=="
+      }
+    },
     "npm:@types/send": {
       "type": "npm",
       "name": "npm:@types/send",
@@ -5200,6 +5209,15 @@
         "version": "7.0.6",
         "packageName": "cross-spawn",
         "hash": "sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA=="
+      }
+    },
+    "npm:csstype": {
+      "type": "npm",
+      "name": "npm:csstype",
+      "data": {
+        "version": "3.1.3",
+        "packageName": "csstype",
+        "hash": "sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw=="
       }
     },
     "npm:dateformat": {
@@ -16114,6 +16132,11 @@
     {
       "source": "npm:@types/pg-pool",
       "target": "npm:@types/pg",
+      "type": "static"
+    },
+    {
+      "source": "npm:@types/react",
+      "target": "npm:csstype",
       "type": "static"
     },
     {
