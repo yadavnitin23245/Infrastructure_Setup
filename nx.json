@@ -1,0 +1,16 @@
+{
+ 
+    "nxCloudAccessToken": "68a6e663ef41067e78578875",
+  "targetDefaults": {
+    "build": { "cache": true },
+    "test":  { "cache": true },
+    "lint":  { "cache": true }
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "nx/tasks-runners/default",
+      "options": { "cacheableOperations": ["build", "test", "lint"] }
+    }
+  },
+  "useInferencePlugins": true
+}

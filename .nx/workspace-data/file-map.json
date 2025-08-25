@@ -1,0 +1,1099 @@
+{
+  "version": "6.0",
+  "nxVersion": "21.4.0",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "node_modules/.prisma/client/default.js",
+        "hash": "2742901603506114256"
+      },
+      {
+        "file": "node_modules/@prisma/engines/query_engine-windows.dll.node",
+        "hash": "16756143337865235721"
+      },
+      {
+        "file": "node_modules/.prisma/client/schema.prisma",
+        "hash": "15923075129422001697"
+      },
+      {
+        "file": "node_modules/.prisma/client/index-browser.js",
+        "hash": "4935915762842062867"
+      },
+      {
+        "file": "node_modules/.cache/prisma/master/605197351a3c8bdd595af2d2a9bc3025bca48ea2/windows/libquery-engine",
+        "hash": "16756143337865235721"
+      },
+      {
+        "file": "README.md",
+        "hash": "6707010689858840039"
+      },
+      {
+        "file": "node_modules/.prisma/client/edge.d.ts",
+        "hash": "11303388507078878756"
+      },
+      {
+        "file": ".nx/workspace-data/nx_files.nxt",
+        "hash": "6795642605099170183"
+      },
+      {
+        "file": "node_modules/.cache/prisma/master/605197351a3c8bdd595af2d2a9bc3025bca48ea2/windows/libquery-engine.sha256",
+        "hash": "8902444877075671619"
+      },
+      {
+        "file": "node_modules/.prisma/client/edge.js",
+        "hash": "16483045010043625834"
+      },
+      {
+        "file": "node_modules/.prisma/client/index.js",
+        "hash": "5166617755629895300"
+      },
+      {
+        "file": ".nx/cache/cloud/2508.25.1/package.json",
+        "hash": "5375276429017335044"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "1574159528488152090"
+      },
+      {
+        "file": "node_modules/.cache/prisma/master/605197351a3c8bdd595af2d2a9bc3025bca48ea2/windows/libquery-engine.gz.sha256",
+        "hash": "12662313760945214592"
+      },
+      {
+        "file": "apps/Test_Readme_API.md",
+        "hash": "7823612940329359332"
+      },
+      {
+        "file": "node_modules/@prisma/engines/node_modules/.cache/prisma/master/605197351a3c8bdd595af2d2a9bc3025bca48ea2/windows/libquery-engine",
+        "hash": "16756143337865235721"
+      },
+      {
+        "file": "node_modules/.prisma/client/index.d.ts",
+        "hash": "9373046886434229259"
+      },
+      {
+        "file": "node_modules/@prisma/engines/node_modules/.cache/prisma/master/605197351a3c8bdd595af2d2a9bc3025bca48ea2/windows/libquery-engine.sha256",
+        "hash": "8902444877075671619"
+      },
+      {
+        "file": "docker/dev/docker-compose.yml",
+        "hash": "14892794328589153700"
+      },
+      {
+        "file": ".nx/cache/cloud/2508.25.1/index.js",
+        "hash": "11532728331247915641"
+      },
+      {
+        "file": "NX_README.MD",
+        "hash": "5758659196733868263"
+      },
+      {
+        "file": "node_modules/.package-lock.json",
+        "hash": "5535806886681879343"
+      },
+      {
+        "file": "node_modules/.prisma/client/query_engine-windows.dll.node",
+        "hash": "16756143337865235721"
+      },
+      {
+        "file": "Makefile",
+        "hash": "16056572168282525145"
+      },
+      {
+        "file": "node_modules/.prisma/client/wasm.js",
+        "hash": "4935915762842062867"
+      },
+      {
+        "file": "Web_PLAYWRITE_README.MD",
+        "hash": "7613825681923342112"
+      },
+      {
+        "file": "node_modules/.prisma/client/default.d.ts",
+        "hash": "6801102947810818358"
+      },
+      {
+        "file": "node_modules/prisma/node_modules/@prisma/engines/node_modules/.cache/prisma/master/717184b7b35ea05dfa71a3236b7af656013e1e49/windows/libquery-engine.sha256",
+        "hash": "17041578666321922370"
+      },
+      {
+        "file": ".env",
+        "hash": "4309715112708722671"
+      },
+      {
+        "file": "node_modules/.prisma/client/wasm.d.ts",
+        "hash": "6801102947810818358"
+      },
+      {
+        "file": "nx.json",
+        "hash": "6127937476275065777"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json",
+        "hash": "5269363992280616565"
+      },
+      {
+        "file": ".nx/workspace-data/source-maps.json",
+        "hash": "10434718918009420061"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "299070439226174224"
+      },
+      {
+        "file": ".env.example",
+        "hash": "3959981377351787755"
+      },
+      {
+        "file": "node_modules/.prisma/client/package.json",
+        "hash": "1263033562974533850"
+      },
+      {
+        "file": "node_modules/prisma/node_modules/@prisma/engines/schema-engine-windows.exe",
+        "hash": "16045761516171751258"
+      },
+      {
+        "file": "node_modules/@prisma/engines/node_modules/.cache/prisma/master/605197351a3c8bdd595af2d2a9bc3025bca48ea2/windows/libquery-engine.gz.sha256",
+        "hash": "12662313760945214592"
+      },
+      {
+        "file": "node_modules/@prisma/engines/schema-engine-windows.exe",
+        "hash": "14579910682756830478"
+      },
+      {
+        "file": "package.json",
+        "hash": "6067742889295791413"
+      },
+      {
+        "file": "node_modules/prisma/node_modules/@prisma/engines/node_modules/.cache/prisma/master/717184b7b35ea05dfa71a3236b7af656013e1e49/windows/libquery-engine",
+        "hash": "18316798850447500555"
+      },
+      {
+        "file": ".nx/workspace-data/project-graph.json",
+        "hash": "13860421339726016645"
+      }
+    ],
+    "projectFileMap": {
+      "api": [
+        {
+          "file": "apps/api/.env",
+          "hash": "9445563492405890271"
+        },
+        {
+          "file": "apps/api/.env.production.example",
+          "hash": "10359895793585188722"
+        },
+        {
+          "file": "apps/api/.env.staging.example",
+          "hash": "10359895793585188722"
+        },
+        {
+          "file": "apps/api/Dockerfile",
+          "hash": "10642337553475150254"
+        },
+        {
+          "file": "apps/api/dist/main.d.ts",
+          "hash": "10762920043107197735",
+          "deps": [
+            "npm:reflect-metadata@0.1.13"
+          ]
+        },
+        {
+          "file": "apps/api/dist/main.js",
+          "hash": "1126624113809070837",
+          "deps": [
+            "npm:reflect-metadata@0.1.13",
+            "npm:@nestjs/core",
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger",
+            "npm:nestjs-pino",
+            "npm:prom-client",
+            "npm:@sentry/node"
+          ]
+        },
+        {
+          "file": "apps/api/dist/main.js.map",
+          "hash": "6914253432486709372"
+        },
+        {
+          "file": "apps/api/dist/modules/app.module.d.ts",
+          "hash": "10127694934788833983"
+        },
+        {
+          "file": "apps/api/dist/modules/app.module.js",
+          "hash": "15586047664608085950",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:nestjs-pino"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/app.module.js.map",
+          "hash": "1505158546294963927"
+        },
+        {
+          "file": "apps/api/dist/modules/auth/auth.controller.d.ts",
+          "hash": "16014241020155924175"
+        },
+        {
+          "file": "apps/api/dist/modules/auth/auth.controller.js",
+          "hash": "2944234621347437572",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:class-validator",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/auth/auth.controller.js.map",
+          "hash": "13428302726108627575"
+        },
+        {
+          "file": "apps/api/dist/modules/auth/auth.module.d.ts",
+          "hash": "11647569113032610640"
+        },
+        {
+          "file": "apps/api/dist/modules/auth/auth.module.js",
+          "hash": "9483191374814556943",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/auth/auth.module.js.map",
+          "hash": "13789683442263894340"
+        },
+        {
+          "file": "apps/api/dist/modules/auth/auth.service.d.ts",
+          "hash": "4796196732788065994",
+          "deps": [
+            "npm:@nestjs/jwt",
+            "npm:@prisma/client@5.22.0"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/auth/auth.service.js",
+          "hash": "3072965629800932813",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt",
+            "npm:bcrypt",
+            "npm:@prisma/client@5.22.0"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/auth/auth.service.js.map",
+          "hash": "16739391316862507720"
+        },
+        {
+          "file": "apps/api/dist/modules/auth/jwt.guard.d.ts",
+          "hash": "6006668970416236471",
+          "deps": [
+            "npm:@nestjs/passport"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/auth/jwt.guard.js",
+          "hash": "8620465989155392262",
+          "deps": [
+            "npm:@nestjs/passport"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/auth/jwt.guard.js.map",
+          "hash": "15942747870489500036"
+        },
+        {
+          "file": "apps/api/dist/modules/auth/jwt.strategy.d.ts",
+          "hash": "15520458098563463011",
+          "deps": [
+            "npm:passport-jwt"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/auth/jwt.strategy.js",
+          "hash": "9029345294518741106",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/passport",
+            "npm:passport-jwt"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/auth/jwt.strategy.js.map",
+          "hash": "16320817594296742774"
+        },
+        {
+          "file": "apps/api/dist/modules/health.controller.d.ts",
+          "hash": "819353400614953913"
+        },
+        {
+          "file": "apps/api/dist/modules/health.controller.js",
+          "hash": "9088503814798041908",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/health.controller.js.map",
+          "hash": "11556687332955926860"
+        },
+        {
+          "file": "apps/api/dist/modules/metrics/metrics.controller.d.ts",
+          "hash": "11159911401983388806"
+        },
+        {
+          "file": "apps/api/dist/modules/metrics/metrics.controller.js",
+          "hash": "14705853108013170955",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:prom-client"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/metrics/metrics.controller.js.map",
+          "hash": "968694144648495084"
+        },
+        {
+          "file": "apps/api/dist/modules/metrics/metrics.module.d.ts",
+          "hash": "4198157972602811286"
+        },
+        {
+          "file": "apps/api/dist/modules/metrics/metrics.module.js",
+          "hash": "14392974627474644047",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/metrics/metrics.module.js.map",
+          "hash": "15222255525829117948"
+        },
+        {
+          "file": "apps/api/dist/modules/prisma.module.d.ts",
+          "hash": "11576682696504724201"
+        },
+        {
+          "file": "apps/api/dist/modules/prisma.module.js",
+          "hash": "8280700529505804094",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@prisma/client@5.22.0"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/prisma.module.js.map",
+          "hash": "11661228692468362726"
+        },
+        {
+          "file": "apps/api/dist/modules/storage/storage.controller.d.ts",
+          "hash": "7378988105011119071"
+        },
+        {
+          "file": "apps/api/dist/modules/storage/storage.controller.js",
+          "hash": "1634499613817617000",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/storage/storage.controller.js.map",
+          "hash": "1189715588024005946"
+        },
+        {
+          "file": "apps/api/dist/modules/storage/storage.module.d.ts",
+          "hash": "17013139365685634932"
+        },
+        {
+          "file": "apps/api/dist/modules/storage/storage.module.js",
+          "hash": "10902510277431540454",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/storage/storage.module.js.map",
+          "hash": "13165407856397418981"
+        },
+        {
+          "file": "apps/api/dist/modules/storage/storage.service.d.ts",
+          "hash": "9182225588324440480"
+        },
+        {
+          "file": "apps/api/dist/modules/storage/storage.service.js",
+          "hash": "15631219470057599237",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@aws-sdk/client-s3",
+            "npm:@aws-sdk/s3-request-presigner"
+          ]
+        },
+        {
+          "file": "apps/api/dist/modules/storage/storage.service.js.map",
+          "hash": "5271686626356138020"
+        },
+        {
+          "file": "apps/api/jest.config.js",
+          "hash": "11378839344630797096"
+        },
+        {
+          "file": "apps/api/package.json",
+          "hash": "14103353020576261032",
+          "deps": [
+            "npm:@nestjs/testing",
+            "npm:@types/jest",
+            "npm:@types/node",
+            "npm:@types/passport-jwt",
+            "npm:@types/supertest",
+            "npm:jest",
+            "npm:prisma@5.22.0",
+            "npm:supertest",
+            "npm:ts-jest",
+            "npm:ts-node",
+            "npm:tsconfig-paths",
+            "npm:tsx",
+            "npm:typescript",
+            "npm:@aws-sdk/client-s3",
+            "npm:@aws-sdk/s3-request-presigner",
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:@nestjs/core",
+            "npm:@nestjs/jwt",
+            "npm:@nestjs/passport",
+            "npm:@nestjs/platform-express",
+            "npm:@nestjs/swagger",
+            "npm:@prisma/client@5.22.0",
+            "npm:@sentry/node",
+            "npm:bcrypt",
+            "npm:class-transformer",
+            "npm:class-validator",
+            "npm:dotenv",
+            "npm:nestjs-pino",
+            "npm:passport",
+            "npm:passport-jwt",
+            "npm:pino-http",
+            "npm:pino-pretty",
+            "npm:prom-client",
+            "npm:reflect-metadata@0.1.13",
+            "npm:rxjs",
+            "npm:swagger-ui-express"
+          ]
+        },
+        {
+          "file": "apps/api/prisma/migrations/20250818141012_firstmigration/migration.sql",
+          "hash": "13249905020314682674"
+        },
+        {
+          "file": "apps/api/prisma/migrations/migration_lock.toml",
+          "hash": "11493296588214560035"
+        },
+        {
+          "file": "apps/api/prisma/schema.prisma",
+          "hash": "8886689439346891346"
+        },
+        {
+          "file": "apps/api/src/main.ts",
+          "hash": "17439374037702852561",
+          "deps": [
+            "npm:reflect-metadata@0.1.13",
+            "npm:@nestjs/core",
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger",
+            "npm:nestjs-pino",
+            "npm:prom-client",
+            "npm:@sentry/node"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/app.module.ts",
+          "hash": "15057260846620814819",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:nestjs-pino"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.controller.ts",
+          "hash": "6287773050949036509",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:class-validator",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.module.ts",
+          "hash": "12572854621924454279",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.service.ts",
+          "hash": "17809213287372140604",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt",
+            "npm:bcrypt",
+            "npm:@prisma/client@5.22.0"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/jwt.guard.ts",
+          "hash": "12405900874836400339",
+          "deps": [
+            "npm:@nestjs/passport"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/jwt.strategy.ts",
+          "hash": "8723224849927209337",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/passport",
+            "npm:passport-jwt"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/health.controller.ts",
+          "hash": "2668652883571105340",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/metrics/metrics.controller.ts",
+          "hash": "8911337437073842517",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:prom-client"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/metrics/metrics.module.ts",
+          "hash": "12635945142524745991",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/prisma.module.ts",
+          "hash": "738648121678277009",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@prisma/client@5.22.0"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/storage/storage.controller.ts",
+          "hash": "17482292620188363135",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/storage/storage.module.ts",
+          "hash": "5283436456681924872",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/storage/storage.service.ts",
+          "hash": "6466243892690631048",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@aws-sdk/client-s3",
+            "npm:@aws-sdk/s3-request-presigner"
+          ]
+        },
+        {
+          "file": "apps/api/test/auth.service.spec.ts",
+          "hash": "10906666087822063689",
+          "deps": [
+            "npm:reflect-metadata@0.1.13",
+            "npm:@nestjs/testing",
+            "npm:@nestjs/jwt"
+          ]
+        },
+        {
+          "file": "apps/api/test/health.e2e.spec.ts",
+          "hash": "7669725969897785636",
+          "deps": [
+            "npm:reflect-metadata@0.1.13",
+            "npm:@nestjs/testing",
+            "npm:@nestjs/common",
+            "npm:supertest"
+          ]
+        },
+        {
+          "file": "apps/api/tsconfig.build.json",
+          "hash": "4144360259620595297"
+        },
+        {
+          "file": "apps/api/tsconfig.json",
+          "hash": "17485524502040787513"
+        }
+      ],
+      "web": [
+        {
+          "file": "apps/web/.env",
+          "hash": "5539949218392051317"
+        },
+        {
+          "file": "apps/web/.env.local.example",
+          "hash": "8514608491816493820"
+        },
+        {
+          "file": "apps/web/.next/app-build-manifest.json",
+          "hash": "11464201938537018602"
+        },
+        {
+          "file": "apps/web/.next/build-manifest.json",
+          "hash": "13254196009560613738"
+        },
+        {
+          "file": "apps/web/.next/cache/.tsbuildinfo",
+          "hash": "3138512327234364555"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/client-development/0.pack.gz",
+          "hash": "13556268309616799939"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/client-development/1.pack.gz",
+          "hash": "493658471827194439"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/client-development/2.pack.gz",
+          "hash": "12229524377062264656"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/client-development/3.pack.gz",
+          "hash": "4048464321244728190"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/client-development/4.pack.gz",
+          "hash": "6768057636992054436"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/client-development/5.pack.gz",
+          "hash": "12996962649386110235"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/client-development/6.pack.gz",
+          "hash": "11639607889913208161"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/client-development/7.pack.gz",
+          "hash": "10228412197993782532"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/client-development/8.pack.gz",
+          "hash": "16444524202629219769"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/client-development/index.pack.gz",
+          "hash": "1070221396419169980"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/client-development/index.pack.gz.old",
+          "hash": "7666616601586764739"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/client-production/0.pack",
+          "hash": "8028362488013738882"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/client-production/1.pack",
+          "hash": "16817507090110258479"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/client-production/2.pack",
+          "hash": "11539659002328686528"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/client-production/3.pack",
+          "hash": "952823981335096424"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/client-production/index.pack",
+          "hash": "13468759366593847755"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/client-production/index.pack.old",
+          "hash": "46873564953202325"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/edge-server-production/0.pack",
+          "hash": "11660940500592675580"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/edge-server-production/index.pack",
+          "hash": "13982011026245115283"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/server-development/0.pack.gz",
+          "hash": "12356763393910659397"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/server-development/1.pack.gz",
+          "hash": "18205968023314999261"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/server-development/2.pack.gz",
+          "hash": "5162466096138695551"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/server-development/3.pack.gz",
+          "hash": "12111041286809064353"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/server-development/4.pack.gz",
+          "hash": "148969499923185898"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/server-development/5.pack.gz",
+          "hash": "18207680409572594065"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/server-development/6.pack.gz",
+          "hash": "11536118781514020656"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/server-development/7.pack.gz",
+          "hash": "3526881489870912816"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/server-development/index.pack.gz",
+          "hash": "18266935017134515722"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/server-development/index.pack.gz.old",
+          "hash": "9766493367106665663"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/server-production/0.pack",
+          "hash": "6397692435214332629"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/server-production/1.pack",
+          "hash": "13238836571332739771"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/server-production/index.pack",
+          "hash": "6804725880507361353"
+        },
+        {
+          "file": "apps/web/.next/cache/webpack/server-production/index.pack.old",
+          "hash": "12394203973591012671"
+        },
+        {
+          "file": "apps/web/.next/package.json",
+          "hash": "11338307439248427064"
+        },
+        {
+          "file": "apps/web/.next/prerender-manifest.js",
+          "hash": "13282247421969425085"
+        },
+        {
+          "file": "apps/web/.next/react-loadable-manifest.json",
+          "hash": "1389868326933519382"
+        },
+        {
+          "file": "apps/web/.next/routes-manifest.json",
+          "hash": "11865259465140689761"
+        },
+        {
+          "file": "apps/web/.next/server/app-paths-manifest.json",
+          "hash": "5767582002542074040"
+        },
+        {
+          "file": "apps/web/.next/server/app/_not-found/page.js",
+          "hash": "11715010810690921306",
+          "deps": [
+            [
+              "npm:next",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/web/.next/server/app/_not-found/page.js.nft.json",
+          "hash": "9038462073381301901"
+        },
+        {
+          "file": "apps/web/.next/server/app/_not-found/page_client-reference-manifest.js",
+          "hash": "1414001361985676764"
+        },
+        {
+          "file": "apps/web/.next/server/app/page.js",
+          "hash": "3567491620731212236",
+          "deps": [
+            [
+              "npm:next",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/web/.next/server/app/page.js.nft.json",
+          "hash": "11902136852431535734"
+        },
+        {
+          "file": "apps/web/.next/server/app/page_client-reference-manifest.js",
+          "hash": "9276476775442231536"
+        },
+        {
+          "file": "apps/web/.next/server/chunks/135.js",
+          "hash": "5828147539051991150"
+        },
+        {
+          "file": "apps/web/.next/server/chunks/592.js",
+          "hash": "14824792502603027512"
+        },
+        {
+          "file": "apps/web/.next/server/chunks/font-manifest.json",
+          "hash": "9444422325801888874"
+        },
+        {
+          "file": "apps/web/.next/server/font-manifest.json",
+          "hash": "9444422325801888874"
+        },
+        {
+          "file": "apps/web/.next/server/interception-route-rewrite-manifest.js",
+          "hash": "10135913824388381780"
+        },
+        {
+          "file": "apps/web/.next/server/middleware-build-manifest.js",
+          "hash": "12725923748873024749"
+        },
+        {
+          "file": "apps/web/.next/server/middleware-manifest.json",
+          "hash": "9889576824779923310"
+        },
+        {
+          "file": "apps/web/.next/server/middleware-react-loadable-manifest.js",
+          "hash": "13961083300434990301"
+        },
+        {
+          "file": "apps/web/.next/server/next-font-manifest.js",
+          "hash": "1232773246202868513"
+        },
+        {
+          "file": "apps/web/.next/server/next-font-manifest.json",
+          "hash": "11891788324563068681"
+        },
+        {
+          "file": "apps/web/.next/server/pages-manifest.json",
+          "hash": "9804283909107365505"
+        },
+        {
+          "file": "apps/web/.next/server/pages/_app.js",
+          "hash": "9894271185289215573",
+          "deps": [
+            [
+              "npm:react",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/web/.next/server/pages/_app.js.nft.json",
+          "hash": "11328437519125102489"
+        },
+        {
+          "file": "apps/web/.next/server/pages/_document.js",
+          "hash": "10969067143441239893",
+          "deps": [
+            [
+              "npm:next",
+              "dynamic"
+            ],
+            [
+              "npm:react",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/web/.next/server/pages/_document.js.nft.json",
+          "hash": "11674296606178205956"
+        },
+        {
+          "file": "apps/web/.next/server/pages/_error.js",
+          "hash": "889169839043591787",
+          "deps": [
+            [
+              "npm:next",
+              "dynamic"
+            ],
+            [
+              "npm:react",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/web/.next/server/pages/_error.js.nft.json",
+          "hash": "18315968148583968154"
+        },
+        {
+          "file": "apps/web/.next/server/server-reference-manifest.js",
+          "hash": "13163716812151759598"
+        },
+        {
+          "file": "apps/web/.next/server/server-reference-manifest.json",
+          "hash": "8577023871099383537"
+        },
+        {
+          "file": "apps/web/.next/server/webpack-runtime.js",
+          "hash": "17752544268493023714"
+        },
+        {
+          "file": "apps/web/.next/static/chunks/1dd3208c-5d3b89b301e8e47b.js",
+          "hash": "4228805394083610394"
+        },
+        {
+          "file": "apps/web/.next/static/chunks/286-b902c1a9b9eac0f4.js",
+          "hash": "14255948763407787740"
+        },
+        {
+          "file": "apps/web/.next/static/chunks/app/_not-found/page-f11a5b1f651cd9cf.js",
+          "hash": "17680862812044354545"
+        },
+        {
+          "file": "apps/web/.next/static/chunks/app/layout-3b9089becc8df19c.js",
+          "hash": "5956178601286718395"
+        },
+        {
+          "file": "apps/web/.next/static/chunks/app/page-be499c17b3fc499e.js",
+          "hash": "8019908573612554928"
+        },
+        {
+          "file": "apps/web/.next/static/chunks/framework-9e68550641db712d.js",
+          "hash": "2265099810623635613"
+        },
+        {
+          "file": "apps/web/.next/static/chunks/main-app-560f01adc9040d12.js",
+          "hash": "16181214975008185829"
+        },
+        {
+          "file": "apps/web/.next/static/chunks/main-fff42040e852275b.js",
+          "hash": "7891125391303039394"
+        },
+        {
+          "file": "apps/web/.next/static/chunks/pages/_app-dea0b6b1c42677ea.js",
+          "hash": "5674715975918653361"
+        },
+        {
+          "file": "apps/web/.next/static/chunks/pages/_error-e327c3d2707a2378.js",
+          "hash": "10427125527879981871"
+        },
+        {
+          "file": "apps/web/.next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
+          "hash": "1955602371502312040"
+        },
+        {
+          "file": "apps/web/.next/static/chunks/webpack-100b9e646d9c912e.js",
+          "hash": "6393489198679826816"
+        },
+        {
+          "file": "apps/web/.next/static/gd1jBnlFY9-5hfAUL_sBd/_buildManifest.js",
+          "hash": "12737995758672832769"
+        },
+        {
+          "file": "apps/web/.next/static/gd1jBnlFY9-5hfAUL_sBd/_ssgManifest.js",
+          "hash": "874386477092777043"
+        },
+        {
+          "file": "apps/web/.next/trace",
+          "hash": "9877864417110178272"
+        },
+        {
+          "file": "apps/web/.next/types/app/layout.ts",
+          "hash": "12124562385877943244",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/web/.next/types/app/page.ts",
+          "hash": "16425691038051046240",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/web/.next/types/package.json",
+          "hash": "6094546126370684104"
+        },
+        {
+          "file": "apps/web/Dockerfile",
+          "hash": "654375593039304421"
+        },
+        {
+          "file": "apps/web/app/layout.tsx",
+          "hash": "1607759158083814388"
+        },
+        {
+          "file": "apps/web/app/page.tsx",
+          "hash": "4562044829511002309",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/web/next-env.d.ts",
+          "hash": "650381615855576712"
+        },
+        {
+          "file": "apps/web/next.config.mjs",
+          "hash": "8787337650957355675"
+        },
+        {
+          "file": "apps/web/package.json",
+          "hash": "18164805766216365940",
+          "deps": [
+            "npm:@playwright/test",
+            "npm:@types/node",
+            "npm:typescript",
+            "npm:next",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/web/playwright.config.ts",
+          "hash": "16568628825811239671",
+          "deps": [
+            "npm:@playwright/test"
+          ]
+        },
+        {
+          "file": "apps/web/test-results/.last-run.json",
+          "hash": "14694065644177241415"
+        },
+        {
+          "file": "apps/web/tests/home.spec.ts",
+          "hash": "8443419681978678490",
+          "deps": [
+            "npm:@playwright/test"
+          ]
+        },
+        {
+          "file": "apps/web/tsconfig.json",
+          "hash": "16492222922998203247"
+        }
+      ]
+    }
+  }
+}

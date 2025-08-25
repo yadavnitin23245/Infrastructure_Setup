@@ -1,0 +1,4 @@
+
+> build
+> tsc -p tsconfig.build.json
+

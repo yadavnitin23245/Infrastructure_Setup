@@ -1,0 +1,157 @@
+
+> build
+> next build
+
+ [33m[1m⚠[22m[39m You are using a non-standard "NODE_ENV" value in your environment. This creates inconsistencies in the project and is strongly advised against. Read more: https://nextjs.org/docs/messages/non-standard-node-env
+  [1m[38;2;173;127;168m▲ Next.js 14.2.5[39m[22m
+  - Environments: .env
+
+ [37m[1m [22m[39m Creating an optimized production build ...
+ [32m[1m✓[22m[39m Compiled successfully
+ [37m[1m [22m[39m Linting and checking validity of types ...
+ [37m[1m [22m[39m Collecting page data ...
+ [37m[1m [22m[39m Generating static pages (0/4) ...
+Error: <Html> should not be imported outside of pages/_document.
+Read more: https://nextjs.org/docs/messages/no-document-import-in-page
+    at Z (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\pages.runtime.prod.js:16:5430)
+    at I [90m(F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\apps\web\[39m.next\server\chunks\135.js:6:1263[90m)[39m
+    at renderWithHooks (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mreact-dom[24m\cjs\react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mreact-dom[24m\cjs\react-dom-server.browser.development.js:5731:15)
+    at renderElement (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mreact-dom[24m\cjs\react-dom-server.browser.development.js:5946:7)
+    at renderNodeDestructiveImpl (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mreact-dom[24m\cjs\react-dom-server.browser.development.js:6104:11)
+    at renderNodeDestructive (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mreact-dom[24m\cjs\react-dom-server.browser.development.js:6076:14)
+    at finishClassComponent (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mreact-dom[24m\cjs\react-dom-server.browser.development.js:5688:3)
+    at renderClassComponent (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mreact-dom[24m\cjs\react-dom-server.browser.development.js:5696:3)
+    at renderElement (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mreact-dom[24m\cjs\react-dom-server.browser.development.js:5943:7)
+
+Error occurred prerendering page "/404". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: <Html> should not be imported outside of pages/_document.
+Read more: https://nextjs.org/docs/messages/no-document-import-in-page
+    at Z (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\next\dist\compiled\next-server\pages.runtime.prod.js:16:5430)
+    at I (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\apps\web\.next\server\chunks\135.js:6:1263)
+    at renderWithHooks (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5731:15)
+    at renderElement (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5946:7)
+    at renderNodeDestructiveImpl (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6104:11)
+    at renderNodeDestructive (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6076:14)
+    at finishClassComponent (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5688:3)
+    at renderClassComponent (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5696:3)
+    at renderElement (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5943:7)
+Error: <Html> should not be imported outside of pages/_document.
+Read more: https://nextjs.org/docs/messages/no-document-import-in-page
+    at Z (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\pages.runtime.prod.js:16:5430)
+    at I [90m(F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\apps\web\[39m.next\server\chunks\135.js:6:1263[90m)[39m
+    at renderWithHooks (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mreact-dom[24m\cjs\react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mreact-dom[24m\cjs\react-dom-server.browser.development.js:5731:15)
+    at renderElement (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mreact-dom[24m\cjs\react-dom-server.browser.development.js:5946:7)
+    at renderNodeDestructiveImpl (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mreact-dom[24m\cjs\react-dom-server.browser.development.js:6104:11)
+    at renderNodeDestructive (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mreact-dom[24m\cjs\react-dom-server.browser.development.js:6076:14)
+    at finishClassComponent (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mreact-dom[24m\cjs\react-dom-server.browser.development.js:5688:3)
+    at renderClassComponent (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mreact-dom[24m\cjs\react-dom-server.browser.development.js:5696:3)
+    at renderElement (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mreact-dom[24m\cjs\react-dom-server.browser.development.js:5943:7)
+
+Error occurred prerendering page "/500". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: <Html> should not be imported outside of pages/_document.
+Read more: https://nextjs.org/docs/messages/no-document-import-in-page
+    at Z (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\next\dist\compiled\next-server\pages.runtime.prod.js:16:5430)
+    at I (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\apps\web\.next\server\chunks\135.js:6:1263)
+    at renderWithHooks (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5731:15)
+    at renderElement (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5946:7)
+    at renderNodeDestructiveImpl (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6104:11)
+    at renderNodeDestructive (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6076:14)
+    at finishClassComponent (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5688:3)
+    at renderClassComponent (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5696:3)
+    at renderElement (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5943:7)
+ [37m[1m [22m[39m Generating static pages (1/4) 
+ [37m[1m [22m[39m Generating static pages (2/4) 
+TypeError: Cannot read properties of null (reading 'useContext')
+    at t.useContext (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.prod.js:12:109363)
+    at d [90m(F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\apps\web\[39m.next\server\chunks\592.js:1:21585[90m)[39m
+    at g [90m(F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\apps\web\[39m.next\server\chunks\592.js:1:13504[90m)[39m
+    at au (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:10446)
+    at F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:15122
+    at aw (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:16908)
+    at a_ (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:49776)
+    at ab (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:11808)
+    at F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:16871
+    at aw (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:16908) {
+  digest: [32m'463918814'[39m
+}
+TypeError: Cannot read properties of null (reading 'useContext')
+    at t.useContext (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.prod.js:12:109363)
+    at d [90m(F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\apps\web\[39m.next\server\chunks\592.js:1:21585[90m)[39m
+    at g [90m(F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\apps\web\[39m.next\server\chunks\592.js:1:13504[90m)[39m
+    at au (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:10446)
+    at F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:15122
+    at aw (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:16908)
+    at a_ (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:49776)
+    at ab (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:11808)
+    at F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:16871
+    at aw (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:16908)
+
+Error occurred prerendering page "/_not-found". Read more: https://nextjs.org/docs/messages/prerender-error
+
+TypeError: Cannot read properties of null (reading 'useContext')
+    at t.useContext (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:109363)
+    at d (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\apps\web\.next\server\chunks\592.js:1:21585)
+    at g (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\apps\web\.next\server\chunks\592.js:1:13504)
+    at au (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:10446)
+    at F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:15122
+    at aw (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:16908)
+    at a_ (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:49776)
+    at ab (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:11808)
+    at F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:16871
+    at aw (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:16908)
+ [37m[1m [22m[39m Generating static pages (3/4) 
+TypeError: Cannot read properties of null (reading 'useContext')
+    at t.useContext (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.prod.js:12:109363)
+    at d [90m(F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\apps\web\[39m.next\server\chunks\592.js:1:21585[90m)[39m
+    at g [90m(F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\apps\web\[39m.next\server\chunks\592.js:1:13504[90m)[39m
+    at au (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:10446)
+    at F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:15122
+    at aw (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:16908)
+    at a_ (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:49776)
+    at ab (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:11808)
+    at F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:16871
+    at aw (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:16908) {
+  digest: [32m'463918814'[39m
+}
+TypeError: Cannot read properties of null (reading 'useContext')
+    at t.useContext (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.prod.js:12:109363)
+    at d [90m(F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\apps\web\[39m.next\server\chunks\592.js:1:21585[90m)[39m
+    at g [90m(F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\apps\web\[39m.next\server\chunks\592.js:1:13504[90m)[39m
+    at au (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:10446)
+    at F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:15122
+    at aw (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:16908)
+    at a_ (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:49776)
+    at ab (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:11808)
+    at F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:16871
+    at aw (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\[4mnext[24m\dist\compiled\next-server\app-page.runtime.dev.js:35:16908)
+
+Error occurred prerendering page "/". Read more: https://nextjs.org/docs/messages/prerender-error
+
+TypeError: Cannot read properties of null (reading 'useContext')
+    at t.useContext (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:109363)
+    at d (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\apps\web\.next\server\chunks\592.js:1:21585)
+    at g (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\apps\web\.next\server\chunks\592.js:1:13504)
+    at au (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:10446)
+    at F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:15122
+    at aw (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:16908)
+    at a_ (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:49776)
+    at ab (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:11808)
+    at F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:16871
+    at aw (F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:16908)
+ [32m[1m✓[22m[39m Generating static pages (4/4)
+
+> Export encountered errors on following paths:
+	/_error: /404
+	/_error: /500
+	/_not-found/page: /_not-found
+	/page: /
+npm ERR! Lifecycle script `build` failed with error: 
+npm ERR! Error: command failed 
+npm ERR!   in workspace: web 
+npm ERR!   at location: F:\Projects\swift_ride_parcel_go\Project_for_setup\nx-next-nest-hybrid-v2\apps\web 

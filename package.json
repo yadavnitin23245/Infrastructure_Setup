@@ -1,0 +1,34 @@
+{
+  "name": "nx-next-nest-hybrid",
+  "private": true,
+  "workspaces": [
+    "apps/api",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev:api": "npm -w apps/api run dev",
+    "dev:web": "npm -w apps/web run dev",
+    "build:api": "npm -w apps/api run build",
+    "build:web": "npm -w apps/web run build",
+    "start:api": "npm -w apps/api run start",
+    "start:web": "npm -w apps/web run start",
+    "prisma:gen": "npm -w apps/api run prisma:gen",
+    "prisma:migrate": "npm -w apps/api run prisma:migrate",
+    "nx": "nx",
+    "build:all": "nx run-many -t build --all --parallel",
+    "test:all": "nx run-many -t test --all --parallel",
+    "lint:all": "nx run-many -t lint --all --parallel"
+  },
+  "devDependencies": {
+    "@nx/js": "^21.4.0",
+    "@types/bcrypt": "^6.0.0",
+    "nx": "21.4.0",
+    "prisma": "^6.14.0",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.14.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2"
+  }
+}
