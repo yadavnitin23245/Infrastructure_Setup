@@ -1,4 +1,6 @@
 name: CI
+env:
+  NX_CLOUD_ACCESS_TOKEN: NjU2YmY2NWUtOGYyYi00M2Q0LWE5Y2EtZTNjOTgxMmUwNTg5fHJlYWQtd3JpdGU=
 on:
   push:
     branches: [ main ]
@@ -10,7 +12,7 @@ jobs:
   nx-ci:
     runs-on: ubuntu-latest
     env:
-      NX_CLOUD_ACCESS_TOKEN: ${{ NjU2YmY2NWUtOGYyYi00M2Q0LWE5Y2EtZTNjOTgxMmUwNTg5fHJlYWQtd3JpdGU= }}  # 👈 inject token
+      NX_CLOUD_ACCESS_TOKEN: ${{ secrets.NX_CLOUD_ACCESS_TOKEN }}  # 👈 inject token
     steps:
       - uses: actions/checkout@v4
         with:
