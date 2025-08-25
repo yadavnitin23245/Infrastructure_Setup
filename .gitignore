@@ -16,5 +16,5 @@ out/
 .next/
 
 # Env files
-.env
 *.env.local
+config.bat
