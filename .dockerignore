@@ -1,0 +1,35 @@
+# node & package managers
+node_modules/
+npm-cache/
+.pnpm-store/
+yarn.lock
+pnpm-lock.yaml
+
+# nx / build artifacts
+.nx/
+dist/
+.tmp/
+tmp/
+
+# nextjs
+apps/*/.next/
+apps/*/out/
+
+# vcs & misc
+.git/
+.gitignore
+.github/
+Dockerfile*
+docker/
+*.log
+*.swp
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# envs
+.env
+*.env.local
