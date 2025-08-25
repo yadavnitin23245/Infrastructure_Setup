@@ -33,3 +33,15 @@ Thumbs.db
 # envs
 .env
 *.env.local
+
+node_modules/
+.nx/
+dist/
+apps/*/.next/
+apps/*/out/
+.git/
+.github/
+.vscode/
+*.log
+.env
+*.env.local
