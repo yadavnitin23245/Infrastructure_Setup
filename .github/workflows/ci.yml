@@ -1,0 +1,46 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+permissions:
+  actions: read
+  contents: read
+
+jobs:
+  nx-ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: tree:0
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci --legacy-peer-deps
+
+      # Compute SHAs so Nx knows what's affected
+      - uses: nrwl/nx-set-shas@v4
+
+      # Build/test only what changed
+      - name: Run affected targets
+        run: npx nx affected -t lint test build
+
+      # (Optional) Nx Cloud self-heal suggestions
+      - name: Nx fix-ci
+        if: always()
+        run: npx nx fix-ci
+
+      # Export list of affected apps for downstream jobs (web, api)
+      - id: affected
+        run: |
+          APPS=$(npx nx print-affected --type=app --select=projects --plain || true)
+          echo "apps=$APPS"
+          echo "apps=$APPS" >> $GITHUB_OUTPUT
